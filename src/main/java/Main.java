@@ -7,5 +7,8 @@ public class Main {
         yourCar.start();
         yourCar.accelerate();
         System.out.println(yourCar.speed);
+
+        Person myPerson = new Person("Eva", 27, "female");
+        myPerson.introduce();
     }
 }
