@@ -22,4 +22,16 @@ public class Car {
             System.out.println("Please start your car first.");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", yearManufactured=" + yearManufactured +
+                ", hasStarted=" + hasStarted +
+                ", speed=" + speed +
+                '}';
+    }
 }
